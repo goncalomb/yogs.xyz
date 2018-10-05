@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    color: firebrick;
+    text-decoration: none;
+}
+
+footer {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+table {
+    text-align: left;
+    margin: 0 auto;
+}
+
+table td {
+    padding: 10px;
+}
+
+table td:first-child {
+    font-size: 24px;
+    text-align: right;
+}
