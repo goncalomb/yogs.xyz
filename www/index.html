@@ -8,20 +8,39 @@
         <title>yogs.xyz</title>
     </head>
     <body>
-        <table>
-            <tr>
-                <td><a href="https://bytes.yogs.xyz/">bytes.yogs.xyz</a></td>
-                <td>Archive of yogbytes.com from December 2015.</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><a href="https://simonsmagicuncle.com/">simonsmagicuncle.com</a></td>
-                <td>Game of the year 1985.</td>
-                <td><a href="https://github.com/goncalomb/simonsmagicuncle.com">GitHub</a></td>
-            </tr>
-        </table>
+        <header></header>
+        <main>
+            <table>
+                <tr>
+                    <td><a href="https://bytes.yogs.xyz/">bytes.yogs.xyz</a></td>
+                    <td>Archive of yogbytes.com from December 2015.</td>
+                    <td>/u/goncalomb</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><a href="https://simonsmagicuncle.com/">simonsmagicuncle.com</a></td>
+                    <td>Game of the year 1985.</td>
+                    <td>/u/goncalomb</td>
+                    <td><a href="https://github.com/goncalomb/simonsmagicuncle.com">GitHub</a></td>
+                </tr>
+            </table>
+        </main>
         <footer>
             <p>Maintained by <a href="https://www.reddit.com/user/goncalomb">/u/goncalomb</a> (<a href="https://goncalomb.com/">goncalomb.com</a>).</p>
         </footer>
+        <script>
+            (function() {
+                // clone some table cells to create a responsive table
+                document.querySelectorAll('table tr').forEach((tr) => {
+                    tr.querySelectorAll('td:nth-child(1), td:nth-child(2)').forEach((td) => {
+                        let ntd = td.cloneNode(true);
+                        ntd.colSpan = 2;
+                        var ntr = document.createElement('tr');
+                        ntr.appendChild(ntd);
+                        tr.parentElement.insertBefore(ntr, tr);
+                    });
+                });
+            })();
+        </script>
     </body>
 </html>
