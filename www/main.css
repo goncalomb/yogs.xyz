@@ -35,7 +35,8 @@ table {
 }
 
 table td {
-    padding: 10px;
+    padding: 5px;
+    vertical-align: baseline;
 }
 
 table tr:nth-child(3n) td:first-child {
