@@ -1,0 +1,165 @@
+[
+    {
+        "name": "/r/Yogscast",
+        "href": "https://www.reddit.com/r/Yogscast/",
+        "description": "Community subreddit.",
+        "creator": "Yognau(gh)ts"
+    },
+    {
+        "name": "yogs.xyz",
+        "description": "This website, index of community made stuff.",
+        "creator": "/u/goncalomb",
+        "extras": [
+            {
+                "name": "GitHub",
+                "href": "https://github.com/goncalomb/yogs.xyz"
+            }
+        ]
+    },
+    {
+        "name": "bytes.yogs.xyz",
+        "href": "https://bytes.yogs.xyz/",
+        "description": "Archive of yogbytes.com from December 2015.",
+        "creator": "/u/goncalomb"
+    },
+    {
+        "name": "art.yogs.xyz",
+        "href": "https://art.yogs.xyz/",
+        "description": "Going, going, gone....",
+        "creator": "/u/goncalomb",
+        "extras": [
+            {
+                "name": "GitHub",
+                "href": "https://github.com/goncalomb/art.yogs.xyz"
+            }
+        ]
+    },
+    {
+        "name": "islewisstillinjapan.yogs.xyz",
+        "href": "https://islewisstillinjapan.yogs.xyz/",
+        "description": "Where is Lewis?",
+        "creator": "/u/goncalomb"
+    },
+    {
+        "name": "simonsmagicuncle.com",
+        "href": "https://simonsmagicuncle.com/",
+        "description": "Game of the year 1985.",
+        "creator": "/u/goncalomb",
+        "extras": [
+            {
+                "name": "GitHub",
+                "href": "https://github.com/goncalomb/simonsmagicuncle.com"
+            }
+        ]
+    },
+    {
+        "name": "yogsdb.com",
+        "href": "https://yogsdb.com/",
+        "description": "Database of all videos.",
+        "creator": "/u/corobo"
+    },
+    {
+        "name": "yogs.tv",
+        "href": "https://yogs.tv/",
+        "description": "YogsCinema voting web app.",
+        "creator": "/u/lolparodyaccounts"
+    },
+    {
+        "name": "yogs.app",
+        "href": "https://yogs.app/",
+        "description": "Fan made application with channel lists, schedules, links and more.",
+        "creator": "/u/Ostof"
+    },
+    {
+        "name": "schedule.yogs.app",
+        "href": "https://schedule.yogs.app/",
+        "description": "Interactive Twitch Schedule.",
+        "creator": "/u/Ostof"
+    },
+    {
+        "name": "yogbytes.com",
+        "description": "Collection of sound bites, defunct.",
+        "creator": "/u/snailer88"
+    },
+    {
+        "name": "yogbyt.es",
+        "description": "Collection of sound bites, new website, also defunct.",
+        "creator": "/u/MRVDOG"
+    },
+    {
+        "name": "Legacy YoGPoDs",
+        "href": "https://www.youtube.com/playlist?list=PLNEbhjI-nYGtSscF3FwyMQKU2M-F-0k7S",
+        "description": "YoGPoD style \"podcasts\" made from old videos.",
+        "creator": "/u/Star_Catfish",
+        "extras": [
+            {
+                "name": "More on YouTube",
+                "href": "https://www.youtube.com/user/Demuzed/videos"
+            },
+            {
+                "name": "Christmas Special",
+                "href": "https://youtu.be/So0WaO1A2Aw"
+            }
+        ]
+    },
+    {
+        "name": "The YoGPoD Show Notes",
+        "href": "https://docs.google.com/document/d/1ctY2vZu_X6_mnbGqTdaR1OwVkgnGVVJrpeakDzS_N84/edit",
+        "description": "Time-stamped summaries of every YoGPoD.",
+        "creator": "/u/ShmedStark",
+        "extras": [
+            {
+                "name": "On Reddit",
+                "href": "https://redd.it/5yt6q1"
+            }
+        ]
+    },
+    {
+        "name": "Jingle Jam Archive",
+        "href": "https://docs.google.com/spreadsheets/d/1ntlvRIg9xCvAK3cfVIljzkp33m0FlGHV-jA8J3ua5Jc",
+        "description": "Jingle Jam index with all streams since 2012.",
+        "creator": "/u/CarlMarshalll",
+        "extras": [
+            {
+                "name": "On Reddit",
+                "href": "https://redd.it/a00wbo"
+            }
+        ]
+    },
+    {
+        "name": "Xmas Livestream Donations",
+        "href": "https://docs.google.com/spreadsheets/d/1icjCYwxUupwSbtIs5UVPvePjYKkeQ25ygJTCe_C1IO0/edit",
+        "description": "Christmas Livestream donations comparison chart since 2012.",
+        "creator": "/u/yarbsemaj",
+        "extras": [
+            {
+                "name": "On Reddit",
+                "href": "https://redd.it/7nem5y"
+            }
+        ]
+    },
+    {
+        "name": "Xmas Livestream Stats",
+        "href": "https://logs.skycube.me.uk/",
+        "description": "Christmas Livestream statistics since 2014.",
+        "creator": "/u/tenuis",
+        "extras": [
+            {
+                "name": "On Reddit",
+                "href": "https://redd.it/2o17u9"
+            }
+        ]
+    },
+    {
+        "name": "Yogscast @ TwichArchive",
+        "href": "https://twitcharchive.com/channel/yogscast",
+        "description": "Archive of old livestreams (up to late 2014) hosted on the Internet Archive.",
+        "creator": "/u/goncalomb",
+        "extras": [
+            {
+                "name": "Other Channels",
+                "href": "https://twitcharchive.com/"
+            }
+        ]
+    }
+]
