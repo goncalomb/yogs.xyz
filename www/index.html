@@ -24,6 +24,10 @@
         </footer>
         <script>
             fetch("sites.json").then(res => res.json()).then(data => {
+                data = [
+                    ...data.filter(site => !site.defunct),
+                    ...data.filter(site => site.defunct)
+                ];
                 const tree = (data, parent = document.createDocumentFragment()) => {
                     data.filter(spec => spec).map(spec => {
                         if (!Array.isArray(spec)) {
@@ -38,7 +42,7 @@
                 };
                 tree(data.map(site => (
                     ["tr", null, [
-                        ["td", null, [
+                        ["td", site.defunct ? { className: "defunct" } : null, [
                             ["p", null, [
                                 site.href ? ["a", { href: site.href }, [
                                     site.name
@@ -46,7 +50,7 @@
                             ]],
                             ["p", null, []],
                         ]],
-                        ["td", null, [
+                        ["td", site.defunct ? { className: "defunct" } : null, [
                             ["p", null, [site.description]],
                             ["p", null, [
                                 site.creator.startsWith("/u/") ? ["a", { href: `https://www.reddit.com${site.creator}` }, [

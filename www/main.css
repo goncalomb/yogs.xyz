@@ -28,6 +28,11 @@ main {
     margin: 0 10px;
 }
 
+.defunct {
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
 table {
     text-align: left;
     margin: 0 auto;

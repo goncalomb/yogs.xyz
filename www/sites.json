@@ -78,13 +78,15 @@
     },
     {
         "name": "yogbytes.com",
-        "description": "Collection of sound bites, defunct.",
-        "creator": "/u/snailer88"
+        "description": "Collection of sound bites.",
+        "creator": "/u/snailer88",
+        "defunct": true
     },
     {
         "name": "yogbyt.es",
-        "description": "Collection of sound bites, new website, also defunct.",
-        "creator": "/u/MRVDOG"
+        "description": "Collection of sound bites, new website.",
+        "creator": "/u/MRVDOG",
+        "defunct": true
     },
     {
         "name": "Legacy YoGPoDs",
