@@ -28,47 +28,68 @@ main {
     margin: 0 10px;
 }
 
+footer {
+    margin: 5px;
+}
+
 .defunct {
     text-decoration: line-through;
     opacity: 0.8;
 }
 
-table {
-    text-align: left;
-    margin: 0 auto;
-    border-spacing: 0;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-table td {
-    padding: 5px;
-}
-
-table td:first-child {
+.grid > div:nth-child(2n+1) {
     text-align: right;
 }
 
-table td p {
+.grid > div:nth-child(2n) {
+    text-align: left;
+}
+
+.grid > div {
+    padding: 5px;
+}
+
+.grid p {
     margin: 0;
 }
 
-table td p:last-child {
-    font-size: 0.8em;
+.grid p:last-child {
+    font-size: 0.85em;
     color: gray;
-    opacity: 0.55;
+    opacity: 0.75;
 }
 
-table td p:last-child:hover {
+.grid p:last-child:hover {
     opacity: 1;
 }
 
-table td:first-child p:first-child {
+.grid > div:nth-child(2n+1) p:first-child {
     font-size: 24px;
 }
 
-table td:last-child p:last-child span::after {
+.grid > div:nth-child(2n) p:last-child span::after {
     content: " ] ";
 }
 
-table td:last-child p:last-child span::before {
+.grid > div:nth-child(2n) p:last-child span::before {
     content: " [ ";
+}
+
+@media screen and (max-width: 750px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid > div {
+        text-align: center !important;
+    }
+
+    .grid > div:nth-child(2n) {
+        border-bottom: 2px solid #ddd;
+    }
 }

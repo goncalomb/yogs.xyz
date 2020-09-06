@@ -12,9 +12,7 @@
             <h2>Yogscast Community Sites, Services and Projects</h2>
         </header>
         <main>
-            <table>
-                <tbody></tbody>
-            </table>
+            <div class="grid"></div>
         </main>
         <footer>
             <p></p>
@@ -40,9 +38,10 @@
                     }).forEach(el => parent.appendChild(el));
                     return parent;
                 };
-                tree(data.map(site => (
-                    ["tr", null, [
-                        ["td", site.defunct ? { className: "defunct" } : null, [
+                const grid = document.querySelector("main .grid");
+                data.forEach(site => {
+                    tree([
+                        ["div", site.defunct ? { className: "defunct" } : null, [
                             ["p", null, [
                                 site.href ? ["a", { href: site.href }, [
                                     site.name
@@ -50,7 +49,7 @@
                             ]],
                             ["p", null, []],
                         ]],
-                        ["td", site.defunct ? { className: "defunct" } : null, [
+                        ["div", site.defunct ? { className: "defunct" } : null, [
                             ["p", null, [site.description]],
                             ["p", null, [
                                 site.creator.startsWith("/u/") ? ["a", { href: `https://www.reddit.com${site.creator}` }, [
@@ -59,8 +58,8 @@
                                 ...(site.extras ? site.extras.map(({ name, href }) => (["a", { href }, [name]])) : [])
                             ].map(el => ["span", null, [el]])]
                         ]]
-                    ]]
-                )), document.querySelector("table tbody"));
+                    ], grid);
+                });
             });
         </script>
     </body>
