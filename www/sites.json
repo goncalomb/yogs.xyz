@@ -129,6 +129,18 @@
         ]
     },
     {
+        "name": "Jingle Jam Donation Tracker & Data Sets",
+        "href": "https://docs.google.com/spreadsheets/d/11Ua2EVlmLCtMKSwKDHnLI8jGvkgJV8BMMHZ1sWowRn0/edit",
+        "description": "Donation tracker with data since 2011.",
+        "creator": "/u/no1mann",
+        "extras": [
+            {
+                "name": "On Reddit",
+                "href": "https://redd.it/e2gwlc"
+            }
+        ]
+    },
+    {
         "name": "Xmas Livestream Donations",
         "href": "https://docs.google.com/spreadsheets/d/1icjCYwxUupwSbtIs5UVPvePjYKkeQ25ygJTCe_C1IO0/edit",
         "description": "Christmas Livestream donations comparison chart since 2012.",

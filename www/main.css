@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 body::before {
     flex-grow: 1;
     content: '';
@@ -21,15 +25,12 @@ body::before {
 
 header, footer {
     flex: 1;
+    margin: 0.8em;
 }
 
 main {
     flex: 2;
     margin: 0 10px;
-}
-
-footer {
-    margin: 5px;
 }
 
 .defunct {
@@ -56,6 +57,7 @@ footer {
 
 .grid p {
     margin: 0;
+    line-height: 1.1em;
 }
 
 .grid p:last-child {
