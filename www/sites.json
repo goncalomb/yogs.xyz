@@ -54,15 +54,15 @@
     },
     {
         "name": "yogsdb.com",
-        "href": "https://yogsdb.com/",
-        "description": "Database of all videos.",
-        "creator": "/u/corobo"
+        "description": "Database of all Yogscast videos.",
+        "creator": "/u/corobo",
+        "defunct": true
     },
     {
         "name": "yogs.tv",
-        "href": "https://yogs.tv/",
         "description": "YogsCinema voting web app.",
-        "creator": "/u/lolparodyaccounts"
+        "creator": "/u/lolparodyaccounts",
+        "defunct": true
     },
     {
         "name": "yogs.app",
